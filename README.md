@@ -1,8 +1,8 @@
-## Feature Filter Datatable by Drop down & Search using Ajax 
+# Feature Filter Datatable by Drop down & Search using Ajax 
 Using Datatable, dont forget to install Yajra Datatable via composer 
 
-# composer require yajra/laravel-datatables-oracle
-# Add on config/app
+## composer require yajra/laravel-datatables-oracle
+## Add on config/app
 .....
 'providers' => [
 	....
