@@ -1,3 +1,28 @@
+## Feature Filter Datatable by Drop down & Search using Ajax 
+Using Datatable, dont forget to install Yajra Datatable via composer 
+
+# composer require yajra/laravel-datatables-oracle
+# Add on config/app
+.....
+'providers' => [
+	....
+	Yajra\DataTables\DataTablesServiceProvider::class,
+]
+'aliases' => [
+	....
+	'DataTables' => Yajra\DataTables\Facades\DataTables::class,
+]
+.....
+
+## Result 
+[![image.png](https://i.postimg.cc/y6r3d1rd/image.png)](https://postimg.cc/nMBhSJxb)
+[![image.png](https://i.postimg.cc/PxVJPyyc/image.png)](https://postimg.cc/hzxcY9Hb)
+
+
+## Table Users 
+[![image.png](https://i.postimg.cc/zvnf0N8m/image.png)](https://postimg.cc/T53G3ZKQ)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
